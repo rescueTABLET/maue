@@ -1,12 +1,15 @@
 {
   "name": "@rescuetablet/maue",
   "version": "0.0.1",
-  "description": "Bibliothek für die _Maschinenlesbare unidirektionale automatische Übergabe von Einsatzdaten (MAÜ)_ des Ministeriums des Inneren und für Sport des Landes Rheinland-Pfalz auf Basis der Datenformatbeschreibung MAÜ1.1 mit Stand Dezember 2020.",
+  "description": "Bibliothek für die Maschinenlesbare unidirektionale automatische Übergabe von Einsatzdaten (MAÜ) des Ministeriums des Inneren und für Sport des Landes Rheinland-Pfalz auf Basis der Datenformatbeschreibung MAÜ1.1 mit Stand Dezember 2020.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsup"
+  },
+  "dependencies": {
+    "xml2js": "^0.6.2"
   },
   "devDependencies": {
     "@types/xml2js": "^0.4.14",
@@ -18,12 +21,17 @@
   "keywords": [
     "maü"
   ],
-  "author": "rescueTABLET",
+  "author": "rescueTABLET (https://rescuetablet.com)",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rescuetablet/maue.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rescuetablet/maue/issues"
+  },
+  "homepage": "https://github.com/rescuetablet/maue",
   "volta": {
     "node": "22.10.0"
-  },
-  "dependencies": {
-    "xml2js": "^0.6.2"
   }
 }
