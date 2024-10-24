@@ -17,5 +17,8 @@
     "maü"
   ],
   "author": "rescueTABLET",
-  "license": "MIT"
+  "license": "MIT",
+  "volta": {
+    "node": "22.10.0"
+  }
 }
