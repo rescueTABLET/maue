@@ -1,0 +1,10 @@
+{
+  "name": "@rescuetablet/maue-parser",
+  "version": "0.0.1",
+  "keywords": [
+    "maü"
+  ],
+  "author": "rescueTABLET",
+  "license": "MIT",
+  "description": "Parser für die _Maschinenlesbare unidirektionale automatische Übergabe von Einsatzdaten (MAÜ)_ des Ministeriums des Inneren und für Sport des Landes Rheinland-Pfalz auf Basis der Datenformatbeschreibung MAÜ1.1 mit Stand Dezember 2020."
+}
