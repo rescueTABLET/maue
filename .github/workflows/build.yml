@@ -33,6 +33,11 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Configure npm authentication
+        run: npm set "//npm.pkg.github.com/:_authToken=${GITHUB_TOKEN}"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Create release pull request or publish to npm
         if: github.ref == 'refs/heads/main'
         uses: changesets/action@v1
